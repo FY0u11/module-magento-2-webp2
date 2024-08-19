@@ -20,7 +20,7 @@
     }
   ],
   "require": {
-    "landofcoder/module-next-gen-images": "^1.0.2",
+    "landofcoder/module-next-gen-images": "dev-master",
     "rosell-dk/webp-convert": "^2.0",
     "ext-json": "*",
     "ext-pcre": "*",
@@ -39,5 +39,11 @@
     "files": [
       "registration.php"
     ]
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/FY0u11/module-magento-2-next-gen-images"
+    }
+  ]
 }
